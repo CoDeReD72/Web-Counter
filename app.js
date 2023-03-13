@@ -21,13 +21,13 @@ btns.forEach(function (btn) {
 
     //==== CHANGING COLOUR ====
     if (count > 0) {
-      value.style.color = "green";
+      value.style.color = "lime";
     }
     if (count < 0) {
       value.style.color = "red";
     }
     if (count === 0) {
-      value.style.color = "#222";
+      value.style.color = "aqua";
     }
     value.textContent = count;
   });
